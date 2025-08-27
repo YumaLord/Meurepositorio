@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Grid</title>
+    <style>
+
+        * {
+            
+            margin: none;
+
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        body {
+            display: grid;
+            grid-template-columns: 270px 1fr;
+            grid-template-rows: 70px 1fr;
+            grid-template-areas:
+            "aside header" 
+            "aside conteudo"
+            ;
+
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            padding-left: 10px;
+            grid-area: header;
+            background-color: rgba(17, 16, 16, 0.877);
+            font-size: 11px;
+            color: aliceblue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        main {
+            grid-area: conteudo;
+            background-color: rgb(22, 22, 22);
+            font-size: small;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        aside {
+            color: aliceblue;
+            grid-area: aside;
+            background-color: rgb(12, 12, 12);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+
+        .novo-chat {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+        }
+
+        .novo-chat a {
+            width: 50%;
+            padding: 10px;
+            background-color: #222;
+            color: aliceblue;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        a, button{
+            width: 80%;
+            display: block;
+            width: 80%;
+            padding: 10px;
+            background-color: #222;
+            color: aliceblue;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0  auto;
+        }
+        .corbotao button:hover {
+            background-color: rgb(51, 68, 83);
+            
+            .novo-chat{
+                background-color: rgb(51, 68, 83);
+            }
+        }
+
+        .Conteudo {
+            margin-bottom: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        input {
+            padding-top: 0px;
+
+            padding-bottom: 3px;
+            padding-right: 200px;
+            
+            
+            border: none;
+            background: none;
+            border-radius: 50px;
+            color: aliceblue;
+            font-size: medium;
+        }
+        .input {
+            background-color: rgb(37, 43, 43);
+            color:rgb(255, 255, 255);
+            border: none;
+            border-radius: 20px;
+            background-image: url();
+            background-size: cover;
+            background-position: center;
+            display: flex;
+        }
+
+        button {
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .corlink a:hover{
+            background-color: rgb(51, 68, 83);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header><h1>ChatGPT<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="icon-sm text-token-text-tertiary"><path d="M12.1338 5.94433C12.3919 5.77382 12.7434 5.80202 12.9707 6.02929C13.1979 6.25656 13.2261 6.60807 13.0556 6.8662L12.9707 6.9707L8.47067 11.4707C8.21097 11.7304 7.78896 11.7304 7.52926 11.4707L3.02926 6.9707L2.9443 6.8662C2.77379 6.60807 2.80199 6.25656 3.02926 6.02929C3.25653 5.80202 3.60804 5.77382 3.86617 5.94433L3.97067 6.02929L7.99996 10.0586L12.0293 6.02929L12.1338 5.94433Z" ></path></svg></h1></header>
+    
+    <main>
+        <div class="Conteudo">
+            <h1>O que tem na agenda de hoje?</h1>
+            <br>
+            <br>
+            <div class="input">
+                <input type="text">
+                <a href="https://www.google.com/?hl=pt_BR"><button></button></a>
+            </div>
+        </div>
+    </main>
+    <aside>
+
+    <div class="novo-chat">
+        <div class="corbotao">
+            <button>Novo Chat</button>
+        </div>
+    </div>
+    <div class="corlink">
+        <a href="https://drive.google.com/file/d/1t5ram62fG5wBZZHUj0-pm-mzLB7785gQ/view?usp=drive_link">Configurações</a>    
+        <br>
+        <a href="https://drive.google.com/file/d/1t5ram62fG5wBZZHUj0-pm-mzLB7785gQ/view?usp=drive_link">Favoritos</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1t5ram62fG5wBZZHUj0-pm-mzLB7785gQ/view?usp=drive_link">Ajuda</a>    
+</div>
+</aside>
+</body>
+</html>
