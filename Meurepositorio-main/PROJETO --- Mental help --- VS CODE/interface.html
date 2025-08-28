@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental_Help</title>
+
+    <style>
+        
+        * {
+            
+            margin: none;
+
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        body {
+            display: grid;
+            grid-template-columns: 0;
+            grid-template-rows: 70px 1fr;
+            grid-template-areas:
+            "aside header" 
+            "aside conteudo"
+            ;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            grid-area: header;
+            background-color: rgb(44, 49, 47);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 4rem;
+            color: rgb(228, 239, 248);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        main {
+            grid-area: conteudo;
+            flex-direction: column;
+            font-size: 3rem;
+            background-image: url(https://scontent-gru1-1.xx.fbcdn.net/v/t1.15752-9/540696400_675793958195702_6623463817043073484_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=oGsdVzJ3BaAQ7kNvwFQBUH1&_nc_oc=AdkXh1-d1R0DgUYHuaEOSqJI3BLCOTM4W63I2jv_rDGjW7JNuwKD5TEKwTl1AYBwcPQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru1-1.xx&oh=03_Q7cD3AEuc1mwnMHX0OaE3tS-LlFoySIyJ0BU7k8u3ShQNx9vLA&oe=68D7F17A);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(228, 239, 248);
+
+        }
+        aside {
+            grid-area: aside;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            background-size: cover;
+        }
+        .botao {
+        display: inline-block;
+        padding: 15px 50px;
+        background: rgb(77, 72, 73);
+        color: white;
+        border-radius: 8px;
+        text-decoration: none; /* sem sublinhado */
+        font-weight: bold;
+        transition: 0.3s;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        }
+
+        .botao:hover {
+        background: darkred;
+        padding: 3%;
+        }
+
+
+        a {
+            text-decoration: none;
+            border: none;
+            border-bottom: none;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        Mental Help
+    </header>
+
+    <main>
+        <button><a class="botao" href="">Procurar psicólogo</a></button>
+        <br>
+
+        <button><a class="botao" href="">Procurar Aluno</a></button>
+        <br>
+
+        <button><a class="botao" href="">Login</a></button>
+        <br>
+        <button><a class="botao" href="doacoes.html">Doação</a></button>
+
+    </main>
+
+    <aside></aside>
+    
+</body>
+</html>
