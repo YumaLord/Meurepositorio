@@ -29,7 +29,6 @@ header {
     height: 100%;
     width: 100%;
 }
-
 aside {
     grid-area: aside;
     display: flex;
@@ -37,7 +36,6 @@ aside {
     background-size: auto;
 
 }
-
 main {
     grid-area: conteudo;
     background-image: url(https://scontent-gru1-1.xx.fbcdn.net/v/t1.15752-9/540696400_675793958195702_6623463817043073484_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=oGsdVzJ3BaAQ7kNvwFQBUH1&_nc_oc=AdkXh1-d1R0DgUYHuaEOSqJI3BLCOTM4W63I2jv_rDGjW7JNuwKD5TEKwTl1AYBwcPQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru1-1.xx&oh=03_Q7cD3AEuc1mwnMHX0OaE3tS-LlFoySIyJ0BU7k8u3ShQNx9vLA&oe=68D7F17A);
@@ -50,6 +48,9 @@ main {
     color: rgb(228, 239, 248);
 }
 
+
+
+
 .conteudo-centralizado {
     width: 350px;
     background-color: #3b3b3b;
@@ -61,7 +62,6 @@ main {
     align-items: center;
     color: white;
 }
-
 .voltar {
     height: 70px;
     width: 70px;
@@ -70,69 +70,4 @@ main {
 }
 .voltar:hover {
     padding: 0%;
-}
-
-.lista-psicologos li {
-    background-color: #4b4b4b;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
-
-.titulo {
-    background-color: #4b4b4b;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
-
-.campo-pesquisa {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.input-matricula {
-    width: 100%;
-    padding: 15px;
-    background-color: #5b5b5b;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.input-matricula::placeholder {
-    color: #bdbdbd;
-}
-
-.lista-psicologos {
-    width: 100%;
-}
-
-.lista-psicologos li {
-    background-color: #4b4b4b;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
-
-.icone-perfil {
-    font-size: 30px;
-    margin-right: 10px;
-}
-
-.nome-matricula {
-    font-size: 16px;
-    color: white;
 }
