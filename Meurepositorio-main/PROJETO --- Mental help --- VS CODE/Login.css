@@ -72,9 +72,9 @@ main {
     padding: 0%;
 }
 
-.fundo-da-lista {
-    height: 400px;
-    width: 400px;
+.perfil-icone { /*a imagem é um SVG*/
+    height: 200px;
+    width: 200px;
     background-color: blue;
 }
 .fundo-do-input {
