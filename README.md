@@ -1,2 +1,2 @@
 # Projeto Mental Help
-Repositório
+Arquivos separados apenas para o projeto da saúde mental
