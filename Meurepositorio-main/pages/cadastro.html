@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mental Help - Login</title>
+    <title>MentalHelp - Cadastro</title>
     <link rel="stylesheet" href="../assets/styles/Login.css">
 </head>
-
 <body>
+
+    <header>
+    </header>
     
-    <header></header>
+    
     <aside>
         <div>
             <a href="interface.html">
@@ -17,7 +19,9 @@
             </a>
         </div>
     </aside>
+
     <main>
+        
         <div class="conteudo-centralizado">
             <div class="perfil-icone">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
@@ -25,19 +29,21 @@
                 </svg>
             </div>
             
-            <form>
-                <div class="input-group">
-                    <input class="input-field" type="text" placeholder="Insira sua matrícula..." required>
-                </div>
-                <div class="input-group">
-                    <input class="input-field" type="password" placeholder="Senha..." required>
-                </div>
-            </form>
-
-            <div class="text-links">
-                <a href="cadastro.html">Criar Conta na MentalHelp</a>
-                <a href="redefinir_senha.html">Esqueceu sua senha?</a>
+        <form>
+            <div class="input-group">
+                <input type="email" class="input-field" placeholder="Informe seu endereço de email" required>
             </div>
+            <div class="input-group">
+                <input type="text" class="input-field" placeholder="Insira seu nome" required>
+            </div>
+            <div class="input-group">
+                <input type="password" class="input-field" placeholder="Crie uma senha forte" required>
+            </div>
+            <div class="input-group">
+                <input type="password" class="input-field" placeholder="Repita a senha..." required>
+            </div>
+            <button class="input-field cadastro-btn" type="submit">Cadastrar</button>
+        </form>
         </div>
     </main>
 </body>
