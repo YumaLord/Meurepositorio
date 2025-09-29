@@ -52,8 +52,8 @@ main {
 }
 
 .voltar {
-    height: 70px;
-    width: 70px;
+    height: 65px;
+    width: 65px;
     transition: 0.5s;
     padding: 10%;
 }

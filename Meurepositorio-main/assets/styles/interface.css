@@ -49,20 +49,20 @@ aside {
     background-size: cover;
 }
 .botao {
-display: inline-block;
-padding: 15px 50px;
-background: rgb(77, 72, 73);
-color: white;
-border-radius: 8px;
-text-decoration: none; /* sem sublinhado */
-font-weight: bold;
-transition: 0.3s;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 17px;
+    display: inline-block;
+    padding: 13px 50px;
+    background: rgb(77, 72, 73);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none; /* sem sublinhado */
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
 }
 .botao:hover {
-background: darkred;
-padding: 15px;
+    background: darkred;
+    padding: 15px;
 }
 a {
     text-decoration: none;
