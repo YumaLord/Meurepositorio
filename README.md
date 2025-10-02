@@ -1,2 +1,2 @@
 # Projeto Mental Help
-Arquivos separados apenas para o projeto da saúde mental
+Arquivos separados para o projeto
