@@ -1,2 +1,2 @@
 # Projeto Mental Help
-Arquivos separados para o projeto
+Arquivos separados para o projeto.
