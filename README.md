@@ -19,7 +19,6 @@ O app possui **botão de denúncia** para proteção dos usuários, e a escola p
 
 ## 🔐 Cadastro Seguro
 
-- 🔑 Login com **conta gov.br**  
 - 📝 Psicólogos inserem e validam informações para garantir **autenticidade e segurança**  
 
 ---
@@ -32,8 +31,8 @@ Promover o **bem-estar emocional e social dos alunos**, incentivando **diálogo,
 
 ## ⚙️ Tecnologias Utilizadas
 
-- 💻 Frontend: Visual Studio Code  
-- 🖥️ Backend: Node.js + Express  
+- 💻 Frontend: Visual Studio Code
+- 🖥️ Backend: Node.js + Express
 - 🗄️ Banco de Dados: SQLite (Prisma ORM)  
 
 ---
